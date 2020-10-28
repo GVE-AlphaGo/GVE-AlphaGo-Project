@@ -21,7 +21,7 @@ Network admin often tired to use the DNAC dashboard to see the basic information
 
 ## ScreenShot from the project 
  
- 
+![image](https://github.com/GVE-AlphaGo/GVE-AlphaGo-Project/blob/main/images/Picture1.png)
  
 
  
