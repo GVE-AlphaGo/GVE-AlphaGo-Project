@@ -77,13 +77,13 @@ This is a Webex Teams node.JS bot application that connect to DNAC and request i
 This module mainly focus on how to push notification from DNAC dashboard to Webex Teams. 
 On Webex Teams, after input "GO_Bot help", there will be four functions: 
 
->>1）Get subscriptions : Get current Event Subscriptions;
+*1）Get subscriptions : Get current Event Subscriptions;
 
->>2）Create subscriptions {EventID} : Create new Event Subscriptions;
+*2）Create subscriptions {EventID} : Create new Event Subscriptions;
 
->>3）Delete subscriptions {EventID} : Delete current Event Subscriptions;
+*3）Delete subscriptions {EventID} : Delete current Event Subscriptions;
 
->>4）Show Events Description
+*4）Show Events Description
 
 Steps to get the Webex BOT working with DNAC
 
