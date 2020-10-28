@@ -22,13 +22,16 @@ Network admin often tired to use the DNAC dashboard to see the basic information
 ## ScreenShot from the project 
  
 ![image](https://github.com/GVE-AlphaGo/GVE-AlphaGo-Project/blob/main/images/Picture1.png)
+
 ![image](https://github.com/GVE-AlphaGo/GVE-AlphaGo-Project/blob/main/images/Picture2.png)
+
 ![image](https://github.com/GVE-AlphaGo/GVE-AlphaGo-Project/blob/main/images/Picture3.png)
+
 ![image](https://github.com/GVE-AlphaGo/GVE-AlphaGo-Project/blob/main/images/Picture4.png)
+
 ![image](https://github.com/GVE-AlphaGo/GVE-AlphaGo-Project/blob/main/images/Picture5.png)
 
 ## Topology 
-Flow Chart
 
 DNAC-notification-to-Webex process
 ![image](https://github.com/GVE-AlphaGo/GVE-AlphaGo-Project/blob/main/images/Picture6.png)
@@ -45,14 +48,15 @@ DNAC-notification-to-Webex process
 
 •	nGrok
 
-## Topology 
  
 ## Installation & Configuration 
 
 This Example Code is composed of 2 modules, each module can be used independently. you can choose the module that you want to demo.
 
 Module 1 : Webex-Bot-DNAC-Request
+
 This is a Webex Teams node.JS bot application that connect to DNAC and request information from DNAC. It features the webex-node-bot-framework that simplifies development for Webex Teams bots by abstractig away some of the complexity of the API calls and registering for events. Some parts of the app are taken from on the old sparkbotstarter template created by Victor Algaze.
+
 1.	Create a Webex Teams bot (save the API access token and username) https://developer.webex.com/my-apps/new/bot eg: API access token: MWIzMDY2NjctZDJjNi00ZjhhLWFjNzAtY2QwNzUwODhjMTQwOTM5ZjFjM2ItNzkz_PF84_1eb65fdf-9643-417f-9974-ad72cae0e10f Username: Alpha_Bot
 2.	Install nGrok, then connect and start it on your machine https://ngrok.com/download
 3.	Run nGrok on your machine to get a public ip address, "ngrok http 7001 --region=eu" eg: Public IP address: http://6547f98d60f7.eu.ngrok.io Port number: 7001
@@ -62,6 +66,7 @@ This is a Webex Teams node.JS bot application that connect to DNAC and request i
 7.	Run the Bot with "npm start"
 
 Module 2:  DNAC_notification_to_WEBEX
+
 This module mainly focus on how to push notification from DNAC dashboard to Webex Teams. 
 On Webex Teams, after input "GO_Bot help", there will be four functions: 
 •	 Get subscriptions : Get current Event Subscriptions;
