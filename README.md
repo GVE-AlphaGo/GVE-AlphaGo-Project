@@ -54,7 +54,7 @@ DNAC-notification-to-Webex process
 
 This Example Code is composed of 2 modules, each module can be used independently. you can choose the module that you want to demo.
 
-Module 1 : Webex-Bot-DNAC-Request
+### Module 1 : Webex-Bot-DNAC-Request
 
 This is a Webex Teams node.JS bot application that connect to DNAC and request information from DNAC. It features the webex-node-bot-framework that simplifies development for Webex Teams bots by abstractig away some of the complexity of the API calls and registering for events. Some parts of the app are taken from on the old sparkbotstarter template created by Victor Algaze.
 
@@ -72,18 +72,18 @@ This is a Webex Teams node.JS bot application that connect to DNAC and request i
 
 7.	Run the Bot with "npm start"
 
-Module 2:  DNAC_notification_to_WEBEX
+### Module 2:  DNAC_notification_to_WEBEX
 
 This module mainly focus on how to push notification from DNAC dashboard to Webex Teams. 
 On Webex Teams, after input "GO_Bot help", there will be four functions: 
 
- 1）Get subscriptions : Get current Event Subscriptions;
+>>1）Get subscriptions : Get current Event Subscriptions;
 
- 2）Create subscriptions {EventID} : Create new Event Subscriptions;
+>>2）Create subscriptions {EventID} : Create new Event Subscriptions;
 
- 3）Delete subscriptions {EventID} : Delete current Event Subscriptions;
+>>3）Delete subscriptions {EventID} : Delete current Event Subscriptions;
 
- 4）Show Events Description
+>>4）Show Events Description
 
 Steps to get the Webex BOT working with DNAC
 
